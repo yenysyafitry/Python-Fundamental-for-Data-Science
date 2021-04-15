@@ -70,6 +70,54 @@ else:</br>
     print("bukan angka 10") #jika FALSE akan mencetak kalimat ini
 </summary><table align="justify"><i>bukan angka 10 </i> </br>Penjelasan: Nilai variable adalah 5. Pada kondisi pertama variable i tidak memenuhi. Maka dari output yang diberikan adalah perintah pada else yang merupakan hasil apabila pengecekan pertama tidak sesuai.</table></details>
 
+<details> <summary><b>IF … ELIF … ELSE ….</b></br>i=5 </br>
+if(i==5):</br>
+     print("ini adalah angka 5")</br>
+elif(i>5):</br>
+     print("lebih besar dari 5")</br>
+else:</br>
+     print("lebih kecil dari 5")
+</summary><table align="justify"><i>Output : </br>ini adalah angka 5</i></br>Penjelasan : Nilai variable i tidak memenuhi dari kondisi pertama dimana ditanyakan apakah nilai i sama dengan 5. Lalu masuk pada pengecekan kedua variable i juga tidak memenuhi. Maka dari itu langsung masuk pada perintah ketiga karena kedua pengecekan awal tidak memenuhi.</table></details>
+
+<details> <summary><b>NESTED IF</b></br>i=2
+if (i<7):</br>
+print("nilai i kurang dari 7")</br>
+if (i<3):</br>
+print("nilai i kurang dari 7 dan kurang dari 3")</br>
+else:</br>
+print("nilai i kurang dari 7 tapi lebih dari 3")
+</summary><table>Pengecekan bertingkat ini kerap disebut sebagai nested IF.</table></details>
+
+<details> <summary><b>Praktek Operasi Matematika</b></br>a=10
+b=5</br>
+selisih = a-b</br>
+jumlah = a+b</br>
+kali = a*b</br>
+bagi = a/b</br>
+print("Hasil penjumlahan a dan b adalah", jumlah)</br>
+print("Selisih a dan b adalah :",selisih)</br>
+print("Hasil perkalian a dan b adalah :",kali)</br>
+print("Hasil pembagian a dan b adalah:",bagi)				
+</summary><table><i>Output : </br>Hasil penjumlahan a dan b adalah 15</br>
+Selisih a dan b adalah : 5</br>
+Hasil perkalian a dan b adalah : 50</br>
+Hasil pembagian a dan b adalah: 2.0</i></table></details>
+
+<details> <summary><b>Operasi modulus</b></br>c=10</br>
+d=3</br>
+modulus=c%d</br>
+print("Hasil modulus",modulus)
+</summary><table align="justify"><i>Output : </br>Hasil modulus 1</i></br>Kenapa bisa seperti itu? Prinsip modulus adalah dasarnya sebuah pembagian. Jika pembagi tidak bisa membagi habis angka yang dibagi maka. Fungsi modulus akan membagi hingga mendekati nilai yang dibagi namun tidak melebihi. Selisih dari angka yang mendekati dan angka yang dibagi nanti merupakan hasil modulus. Jika bisa dibagi habis seperti kasus pertama 10/5 maka modulus akan mengembalikan nilai 0.</table></details>
+
+<details> <summary align="justify"><b>Tugas Mid Praktek</b></br>Buatlah sebuah program yang bisa menentukan suatu nilai pada variable itu genap atau ganjil! Lakukan percobaan dengan langkah berikut:</br>
+Buat variabel dengan nama “angka” isi dengan nilai 10</br>
+Ganti bagian … dengan perhitungan untuk menentukan angka modulus 2 bernilai 0.</br>
+Cek apakah benar dia bernilai genap maka keluarkan "angka termasuk bilangan genap", jika sudah ganti nilai variable angka dengan nilai 5 cek lagi apakah dia bernilai ganjil dan keluarkan "angka termasuk bilangan ganjil".
+</summary><table><i>angka=5</br>
+if(angka%2==0):</br>
+print("angka termasuk bilangan genap")</br>
+else:</br>
+print("angka termasuk bilangan ganjil")</i></table></details>
 <details> <summary><b></br>
 </summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
 <details> <summary><b></br>
