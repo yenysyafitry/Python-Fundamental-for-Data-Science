@@ -158,14 +158,14 @@ def salam():</br>
     print("Hello, Selamat Pagi")</br>
 ##Pemanggilan Fungsi</br>
 salam()	
-</summary><table><i>Hello, Selamat Pagi </i></table></details>
+</summary><table><i>Output :</br>Hello, Selamat Pagi </i></table></details>
 <details> <summary align="justify"><b>Parameter pada fungsi</b></br>def luas_segitiga(alas, tinggi): #alas dan tinggi merupakan parameter yang masuk</br>
     luas = (alas * tinggi) / 2</br>
     print("Luas segitiga: %f" % luas);</br>
 #Pemanggilan fungsi</br>
 ##4 dan 6 merupakan parameter yang diinputkan kedalam fungsi luas segitiga</br>
 luas_segitiga(4, 6) 	
-</summary><table><i>Luas segitiga: 12.000000</i></table></details>
+</summary><table><i>Output :</br>Luas segitiga: 12.000000</i></table></details>
 
 <details> <summary align="justify"><b>Fungsi dengan Return Value</b></br>Fungsi yang tidak mengembalikan nilai biasanya disebut dengan prosedur. Namun, kadang kita butuh hasil proses dari fungsi untuk digunakan pada proses berikutnya. Maka fungsi harus mengembalikan nilai dari hasil pemrosesannya. Cara mengembalikan nilai adalah menggunakan kata kunci return lalu diikuti dengan nilai atau variabel yang akan dikembalikan.</br></br><i>
 # Buat fungsi untuk menghitung luas segitiga</br>
@@ -175,24 +175,51 @@ def luas_segitiga(alas, tinggi):</br>
     return luas</br>
 #pemanggilan fungsi</br>
 print("Luas segitiga: %d" % luas_segitiga(4, 6))</i>
-</summary><table><i>Luas segitiga: 12</i></table></details>
+</summary><table><i>Output :</br>Luas segitiga: 12</i></table></details>
 
 <details> <summary align="justify"><b>Import Package dan Menggunakan modul</b></br>import math</br>
 print("Nilai pi adalah:", math.pi)# math.pi merupakan sintak untuk memanggil fungsi	
-</summary><table><i>Nilai pi adalah: 3.141592653589793 </i></table></details>
+</summary><table><i>Output :</br>Nilai pi adalah: 3.141592653589793 </i></table></details>
+
 <details> <summary align="justify"><b>Import dengan Module Rename atau Alias</b></br>import math as m #menggunakan m sebagai module rename atau alias</br>
 print("Nilai pi adalah:", m.pi) #m.pi merupakan sintak untuk memanggil fungsi​
 </summary><table><i>Output :</br>Nilai pi adalah: 3.141592653589793</i></table></details>
+
 <details> <summary align="justify"><b>Import Sebagian Fungsi</b></br>from math import pi</br>
 print("Nilai pi adalah", pi)
 </summary><table><i>Output :</br>Nilai pi adalah 3.141592653589793</i></table></details>
-<details> <summary align="justify"><b></br>
-</summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
+
+<details> <summary align="justify"><b>Import Sebagian Fungsi</b></br>Pada suatu module tidak bisa dipungkiri terdiri dari puluhan bahkan ribuan fungsi. Namun, yang kita butuhkan hanya 1 atau 2 fungsi saja. Untuk meminimalisir ketidakefisienan suatu program dalam load suatu module bisa dilakukan import module namun hanya beberapa fungsi saja yang kita import kedalam code. Format (from module_name import function_name)</br></br>from math import pi</br>
+print("Nilai pi adalah", pi)
+  </summary><table><i>Output :</br>Nilai pi adalah 3.141592653589793</i></table></details>
+
+<details> <summary align="justify"><b>Import Semua isi Moduls</b></br>Namun, jika memang yang dibutuhkan banyak, semisal lebih dari 10 atau bahkan ratusan fungsi, bisa dilakukan import semuanya dengan menggunakan format from module_name import *. Tanda * disini menunjukan semua fungsi diimport kedalam code.</br></br>from math import *</br>
+print("Nilai e adalah:", e)	
+</summary><table><i>Output :</br>Nilai e adalah: 2.718281828459045</i></table></details>
+
+<p align="justify"><b>CSV atau comma separated value</b> adalah salah satu tipe file yang digunakan secara luas di dunia programming. Tidak hanya itu CSV pun sering digunakan dalam pengolahan informasi yang dihasilkan spreadsheet untuk diproses lebih lanjut melalui mesin analitik. CSV pun dianggap sebagai file yang agnostik karena dapat digunakan oleh berbagai database untuk proses backup data. CSV dianggap sebagai salah satu tipe data yang sering dipakai untuk mengelola data pada proses lanjutan.</p>
+
+<details> <summary align="justify"><b>Membaca Teks File (CSV)</b></br>Sekarang kita akan mencoba membaca sebuah file CSV yang telah dihasilkan aplikasi atau program lain. Di Python, hasil pembacaan setiap baris pada file CSV akan dikonversi menjadi list Python.</br></br>
+  </summary><table><i>Output :</br> </i></table></details>
 
 <details> <summary align="justify"><b></br>
-</summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
+  </summary><table><i>Output :</br> </i></table></details>
+  
+  <details> <summary align="justify"><b></br>
+  </summary><table><i>Output :</br> </i></table></details>
+
 <details> <summary align="justify"><b></br>
-</summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
+  </summary><table><i>Output :</br> </i></table></details>
+  
+  <details> <summary align="justify"><b></br>
+  </summary><table><i>Output :</br> </i></table></details>
 
+<details> <summary align="justify"><b></br>
+  </summary><table><i>Output :</br> </i></table></details>
+  
+  <details> <summary align="justify"><b></br>
+  </summary><table><i>Output :</br> </i></table></details>
 
+<details> <summary align="justify"><b></br>
+  </summary><table><i>Output :</br> </i></table></details>
 
