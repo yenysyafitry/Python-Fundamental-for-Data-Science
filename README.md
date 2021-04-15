@@ -17,13 +17,13 @@ Beberapa hal yang mungkin kelebihan dari python:<ol align="justify"><li>Python d
 
 <details> <summary><b>Contoh Source coding </b></br>print (10*2+5)</br>
 print ("Academy DQLab")
-  </summary><table>25</br>
-Academy DQLab</table></details>
+  </summary><table><i>25</br>
+Academy DQLab</i></table></details>
 
 <details> <summary><b>Melakukan Comment Pada Python</b></br>print(10*2+5) #fungsi matematika</br>
 print("Academy DQLab") #fungsi mencetak kalimat
-</summary><table>25</br>
-Academy DQLab</table></details>
+</summary><table><i>25</br>
+Academy DQLab</i></table></details>
 
 <p align="justify"><b>Variable, Basic Data Type and Print</b></br>Pada sesi kali ini kita akan belajar bagaimana cara inisialisasi variable dalam beberapa data type dan menampilkannya (print)</br><table><tr align="center">
   <td><b>Tipe Data</b></td><td><b>Contoh</b></td><td><b>Penjelasan</b></td></tr>
@@ -61,7 +61,7 @@ Pada praktek kali ini akan dibagi menjadi 3 bagian :<ol align="justify"><li>Meng
 <details> <summary><b>IF Statement</b></br>i = 7 #inisialisasi variable i yang memiliki nilai 10</br>
 if(i==10): #pengecekan nilai i apakah sama dengan 10</br>
     print("ini adalah angka 10") #jika TRUE maka akan mencetak kalimat ini	
-</summary><table>Karena nilai 7 tidak memenuhi syarat kondisi dalam IF. Karena tidak ada kelanjutan perintah maka program dihentikan dan tidak mengeluarkan hasil apapun.</table></details>
+</summary><table><i>Karena nilai 7 tidak memenuhi syarat kondisi dalam IF. Karena tidak ada kelanjutan perintah maka program dihentikan dan tidak mengeluarkan hasil apapun.</i></table></details>
 
 <details> <summary><b></br>
 </summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
