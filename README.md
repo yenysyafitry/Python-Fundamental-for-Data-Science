@@ -130,7 +130,7 @@ Ini adalah perulangan ke - 3</br>
 Ini adalah perulangan ke - 4</br>
 Ini adalah perulangan ke - 5></i></table></details>
 <details> <summary><b>for (1)</b></br>Maksud dari fungsi ini for i in range (1,6): jika kita konversi pada JAVA atau C sama dengan for(i=1;i<6i++). Jika dikonversi menjadi kalimat adalah “perulangan dimulai dari nilai i = 1 hingga nilai i kurang dari 6 dimana setiap kali perulangan nilai i akan selalu ditambah 1”. Jika nilai i sudah mencapai 6 perulangan akan dihentikan. </br><i>for i in range (1,6): #perulangan for sebagai inisialisasi dari angka 1 hingga angka yang lebih kecil daripada 6.</br>
-    print("Ini adalah perulangan ke -", i) #perintah jika looping akan tetap berjalan</br></i>
+&nbsp print("Ini adalah perulangan ke -", i) #perintah jika looping akan tetap berjalan</br></i>
 </summary><table><i>Output : </br>Ini adalah perulangan ke - 1</br>
 Ini adalah perulangan ke - 2</br>
 Ini adalah perulangan ke - 3</br>
