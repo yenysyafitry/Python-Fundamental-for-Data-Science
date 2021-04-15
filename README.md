@@ -35,9 +35,29 @@ Academy DQLab</table></details>
 <tr><td>Tuple</td><td>('xyz', 768, 2.23)</td><td>Data untaian yang menyimpan berbagai tipe data tapi isinya tidak bisa diubah</td></tr>
 <tr><td>Dictionary</td><td>{'nama': 'adi','id':2}</td><td>Data untaian yang menyimpan berbagai tipe data berupa pasangan penunjuk dan nilai</td></tr>
 </table>
-<details> <summary><b></br>
-</summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
+<details> <summary><b>Printing Data Type</b></br>var_string="Belajar Python DQLAB"</br>
+var_int=10</br>
+var_float=3.14</br>
+var_list=[1,2,3,4]</br>
+var_tuple=("satu","dua","tiga")</br>
+var_dict={"nama":"Ali", 'umur':20}</br>
+print(var_string)</br>
+print(var_int)</br>
+print(var_float)</br>
+print(var_list)</br>
+print(var_tuple)</br>
+print(var_dict)	</br>
+print(type(var_string))</br>
+print(type(var_int))</br>
+print(type(var_float))</br>
+print(type(var_list))</br>
+print(type(var_tuple))</br>
+print(type(var_dict))
+</summary><table><img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science//blob/main/Screenshot_1.jpg"></table></details>
 
+Pada praktek kali ini akan dibagi menjadi 3 bagian : <ol><li>Menggunakan IF yang jika direpresentasikan dengan kata – kata, (Jika, sesuatu memenuhi suatu kondisi, maka lakukan A, jika tidak, tidak terjadi apa-apa)</li>
+<li>Menggunakan IF dan ELSE yang jika direpresentasikan dengan kata – kata, (Jika, sesuatu memenuhi suatu kondisi, maka lakukan A, jika tidak, lakukan B </li>
+<li>Menggunakan IF, ELIF dan ELSE. ELIF sendiri sebenarnya sama persis dengan ELSE IF. Namun, pada python disingkat menjadi ELSE IF. (Jika, sesuatu memenuhi suatu kondisi, maka lakukan A, jika tidak, lakukan pengecekan pada kondisi berikutnya, jika memenuhi lakukan B, jika tidak maka lakukan C)</li></ol>
 <details> <summary><b></br>
 </summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
 <details> <summary><b></br>
