@@ -17,12 +17,12 @@ Beberapa hal yang mungkin kelebihan dari python:<ol align="justify"><li>Python d
 
 <details> <summary><b>Contoh Source coding </b></br>print (10*2+5)</br>
 print ("Academy DQLab")
-  </summary><table><i>25</br>
+  </summary><table align="justify"><i>Output : </br>25</br>
 Academy DQLab</i></table></details>
 
 <details> <summary><b>Melakukan Comment Pada Python</b></br>print(10*2+5) #fungsi matematika</br>
 print("Academy DQLab") #fungsi mencetak kalimat
-</summary><table><i>25</br>
+</summary><table align="justify"><i>Output : </br>25</br>
 Academy DQLab</i></table></details>
 
 <p align="justify"><b>Variable, Basic Data Type and Print</b></br>Pada sesi kali ini kita akan belajar bagaimana cara inisialisasi variable dalam beberapa data type dan menampilkannya (print)</br><table><tr align="center">
@@ -53,22 +53,22 @@ print(type(var_float))</br>
 print(type(var_list))</br>
 print(type(var_tuple))</br>
 print(type(var_dict))
-</summary><table><img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science//blob/main/Screenshot_1.jpg"></table></details>
+</summary><table><img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science/blob/main/Screenshot_1.jpg"></table></details>
 Pada praktek kali ini akan dibagi menjadi 3 bagian :<ol align="justify"><li>Menggunakan IF yang jika direpresentasikan dengan kata – kata, (Jika, sesuatu memenuhi suatu kondisi, maka lakukan A, jika tidak, tidak terjadi apa-apa)</li>
 <li>Menggunakan IF dan ELSE yang jika direpresentasikan dengan kata – kata, (Jika, sesuatu memenuhi suatu kondisi, maka lakukan A, jika tidak, lakukan B </li>
 <li>Menggunakan IF, ELIF dan ELSE. ELIF sendiri sebenarnya sama persis dengan ELSE IF. Namun, pada python disingkat menjadi ELSE IF. (Jika, sesuatu memenuhi suatu kondisi, maka lakukan A, jika tidak, lakukan pengecekan pada kondisi berikutnya, jika memenuhi lakukan B, jika tidak maka lakukan C)</li></ol>
 
-<details> <summary><b>IF Statement</b></br>i = 7 #inisialisasi variable i yang memiliki nilai 10</br>
+<details> <summary><b>IF Statement</b></br><i>i = 7 #inisialisasi variable i yang memiliki nilai 10</br>
 if(i==10): #pengecekan nilai i apakah sama dengan 10</br>
-    print("ini adalah angka 10") #jika TRUE maka akan mencetak kalimat ini	
-</summary><table><i>Karena nilai 7 tidak memenuhi syarat kondisi dalam IF. Karena tidak ada kelanjutan perintah maka program dihentikan dan tidak mengeluarkan hasil apapun.</i></table></details>
+    print("ini adalah angka 10") #jika TRUE maka akan mencetak kalimat ini	</i>
+</summary><table><i></br>Karena nilai 7 tidak memenuhi syarat kondisi dalam IF. Karena tidak ada kelanjutan perintah maka program dihentikan dan tidak mengeluarkan hasil apapun.</i></table></details>
 
 <details> <summary><b>IF … ELSE …</b></br>i = 5 #inisialisasi variable i yang memiliki nilai 10</br>
 if(i==10): #pengecekan nilai i apakah sama dengan 10</br>
     print("ini adalah angka 10") #jika TRUE maka akan mencetak kalimat ini</br>
 else:</br>
     print("bukan angka 10") #jika FALSE akan mencetak kalimat ini
-</summary><table align="justify"><i>bukan angka 10 </i> </br>Penjelasan: Nilai variable adalah 5. Pada kondisi pertama variable i tidak memenuhi. Maka dari output yang diberikan adalah perintah pada else yang merupakan hasil apabila pengecekan pertama tidak sesuai.</table></details>
+</summary><table align="justify"><i>Output : </br>bukan angka 10 </i> </br>Penjelasan: Nilai variable adalah 5. Pada kondisi pertama variable i tidak memenuhi. Maka dari output yang diberikan adalah perintah pada else yang merupakan hasil apabila pengecekan pertama tidak sesuai.</table></details>
 
 <details> <summary><b>IF … ELIF … ELSE ….</b></br>i=5 </br>
 if(i==5):</br>
@@ -113,7 +113,7 @@ print("Hasil modulus",modulus)
 Buat variabel dengan nama “angka” isi dengan nilai 10</br>
 Ganti bagian … dengan perhitungan untuk menentukan angka modulus 2 bernilai 0.</br>
 Cek apakah benar dia bernilai genap maka keluarkan "angka termasuk bilangan genap", jika sudah ganti nilai variable angka dengan nilai 5 cek lagi apakah dia bernilai ganjil dan keluarkan "angka termasuk bilangan ganjil".
-</summary><table><i>angka=5</br>
+</summary><table align="justify"><i>Output : </br>angka=5</br>
 if(angka%2==0):</br>
 print("angka termasuk bilangan genap")</br>
 else:</br>
