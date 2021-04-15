@@ -263,7 +263,7 @@ print(table)
   
   <p align="justify"><b>Grafik</b> merupakan salah satu perangkat visualisasi. Visualisasi sendiri sudah menjadi salah satu challenge atau poin penting dalam data science. Selain bisa mempermudah seseorang untuk memahami data, bagi para data scientist visualisasi bisa meningkatkan analisa atau memunculkan knowledge yang tidak sempat terekspose ketika tidak menggunakan visualisasi. Pada sesi kali ini, kita akan menggunakan matplotlib untuk melakukan visualisasi data yang sudah ada.</p>
   
-  <details> <summary align="justify"></br> Bar Chart</b>import pandas as pd</br>
+  <details> <summary align="justify"><b> Bar Chart</b></br>import pandas as pd</br>
 import numpy as np</br>
 import matplotlib.pyplot as plt</br>
 table = pd.read_csv("https://academy.dqlab.id/dataset/penduduk_gender_head.csv")</br>
