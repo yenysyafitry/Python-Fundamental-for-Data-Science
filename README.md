@@ -211,7 +211,7 @@ f.close()
   </p>
 
 <details> <summary align="justify"><b>Membaca file CSV dengan menggunakan PANDAS</b></br>Bagi yang belum familiar, PANDAS merupakan salah satu library yang sangat sering digunakan untuk aplikasi dan implementasi data science. Baik untuk data manipulation, data pre-processing, atau data wrangling. Pada sesi kali ini, kita akan menggunakan PANDAS untuk membaca file dari csv.</br></br>import pandas as pd</br>
-table = pd.read_csv("https://academy.dqlab.id/dataset/penduduk_gender_head.csv")</br>
+table = pd.read_csv("https://storage.googleapis.com/dqlab-dataset/penduduk_gender_head.csv")</br>
 table.head()</br>
 print(table)				
   </summary><table><tr><td>No</td><td>TAHUN</td><td>NAMA PROVINSI</td><td>NAMA KABUPATEN</td><td>NAMA KECAMATAN</td></tr>
@@ -261,21 +261,46 @@ print(table)
 <tr><td>43</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>JOHAR BARU</td></tr>
   </table></details>
   
-  <details> <summary align="justify"><b></br>
-  </summary><table><i>Output :</br> </i></table></details>
-
-<details> <summary align="justify"><b></br>
-  </summary><table><i>Output :</br> </i></table></details>
+  <p align="justify"><b>Grafik</b> merupakan salah satu perangkat visualisasi. Visualisasi sendiri sudah menjadi salah satu challenge atau poin penting dalam data science. Selain bisa mempermudah seseorang untuk memahami data, bagi para data scientist visualisasi bisa meningkatkan analisa atau memunculkan knowledge yang tidak sempat terekspose ketika tidak menggunakan visualisasi. Pada sesi kali ini, kita akan menggunakan matplotlib untuk melakukan visualisasi data yang sudah ada.</p>
   
-  <details> <summary align="justify"><b></br>
-  </summary><table><i>Output :</br> </i></table></details>
-
+  <details> <summary align="justify"></br> Bar Chart</b>import pandas as pd</br>
+import numpy as np</br>
+import matplotlib.pyplot as plt</br>
+table = pd.read_csv("https://academy.dqlab.id/dataset/penduduk_gender_head.csv")</br>
+table.head()</br>
+x_label = table['NAMA KELURAHAN']</br>
+plt.bar(x=np.arange(len(x_label)),height=table['LAKI-LAKI WNI'])</br>
+plt.show()			</br>
+  </summary><table><i>Output :</br> </i></table></details></br>
 <details> <summary align="justify"><b></br>
-  </summary><table><i>Output :</br> </i></table></details>
+  </summary><table><i>Output :</br></i><img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science//blob/main/download.png"></table></details>
   
-  <details> <summary align="justify"><b></br>
-  </summary><table><i>Output :</br> </i></table></details>
+  <details> <summary align="justify"><b>Parameter dalam Grafik (Memberikan Nilai Axis dari data CSV)</b></br><i>import pandas as pd</br>
+import numpy as np</br>
+import matplotlib.pyplot as plt</br>
+table = pd.read_csv("https://academy.dqlab.id/dataset/penduduk_gender_head.csv")</br>
+table.head()</br>
+x_label = table['NAMA KELURAHAN']</br>
+plt.bar(x=np.arange(len(x_label)),height=table['LAKI-LAKI WNI'])</br>
+plt.xticks(np.arange(len(x_label)), table['NAMA KELURAHAN'], rotation=30)</br>
+plt.show()				</i>
+  </summary><table><i>Output :</br> </i> <img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science//blob/main/download (1).png"></table></details>
 
-<details> <summary align="justify"><b></br>
-  </summary><table><i>Output :</br> </i></table></details>
+<details> <summary align="justify"><b>Menambah Title dan Label pada Grafik</b></br>import pandas as pd</br>
+import numpy as np</br>
+import matplotlib.pyplot as plt</br>
+table = pd.read_csv("https://academy.dqlab.id/dataset/penduduk_gender_head.csv")</br>
+table.head()</br>
+x_label = table['NAMA KELURAHAN']</br>
+plt.bar(x=np.arange(len(x_label)),height=table['LAKI-LAKI WNI'])</br>
+plt.xticks(np.arange(len(x_label)), table['NAMA KELURAHAN'], rotation=90)</br>
+plt.xlabel('Keluarahan di Jakarta pusat')</br>
+plt.ylabel('Jumlah Penduduk Laki - Laki')</br>
+plt.title('Persebaran Jumlah Penduduk Laki- Laki di Jakarta Pusat')</br>
+plt.show()	
+  </summary><table><i>Output :</br> </i><img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science//blob/main/download (2).png"></table></details>
+  
+  </br>
+  </br>
+  <img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science//blob/main/Screenshot_2.jpg">
 
