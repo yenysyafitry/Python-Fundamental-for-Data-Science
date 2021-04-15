@@ -8,6 +8,8 @@ Python sendiri berguna dalam berbagai aspek :
 <li>Bisa mengelola Big Data dan Rumus matematika yang complex</li>
 <li>Cocok untuk riset dan rapid prototype suatu product dan launch hingga produksi</li>
 <li>CRUD sebuah file dan database</li></ol>
+<p align="justify"><b>Mengapa Python Populer</b></br>
+Selain aspek dari meningkatnya minat masyarakat dunia terhadap data science, ada banyak hal yang membuat Python populer. Python merupakan salah satu programming language yang cocok untuk scripting dan bisa bergerak dalam berbagai platform OS dan IoT. Python sangat mirip English language. Meskipun tergolong sebagai high level programming language, python sangat mudah dimengerti karena syntaxnya yang sederhana. Python bisa bergerak dalam dalam berbagai fungsional programming dan OOP.  Python berjalan pada intepreter system, artinya code yang sudah ditulis bisa dijalankan sesegera mungkin.</p>
 
 Beberapa hal yang mungkin kelebihan dari python:
 <ol align="justify"><li>Python dirancang untuk mudah dibaca, dan memiliki beberapa kesamaan dengan bahasa Inggris dengan pengaruh dari matematika.</li>
