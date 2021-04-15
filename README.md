@@ -26,7 +26,8 @@ print("Academy DQLab") #fungsi mencetak kalimat
 Academy DQLab</table></details>
 
 <p align="justify"><b>Variable, Basic Data Type and Print</b></br>Pada sesi kali ini kita akan belajar bagaimana cara inisialisasi variable dalam beberapa data type dan menampilkannya (print)</br><table><tr>
-  <td>Tipe Data</td><td>Contoh</td><td>Penjelasan</td></tr></table>
+  <td>Tipe Data</td><td>Contoh</td><td>Penjelasan</td></tr>
+<tr><td>Boolean</td><td>True atau False</td><td>Menyatakan benar True yang bernilai 1, atau salah False yang bernilai 0</td></tr></table>
 
 <details> <summary><b></br>
 </summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
