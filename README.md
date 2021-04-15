@@ -25,8 +25,8 @@ print("Academy DQLab") #fungsi mencetak kalimat
 </summary><table>25</br>
 Academy DQLab</table></details>
 
-<p align="justify"><b>Variable, Basic Data Type and Print</b></br>Pada sesi kali ini kita akan belajar bagaimana cara inisialisasi variable dalam beberapa data type dan menampilkannya (print)</br><table align="justify"><b><tr>
-  <td>Tipe Data</td><td>Contoh</td><td>Penjelasan</td></tr></b>
+<p align="justify"><b>Variable, Basic Data Type and Print</b></br>Pada sesi kali ini kita akan belajar bagaimana cara inisialisasi variable dalam beberapa data type dan menampilkannya (print)</br><table align="justify"><tr>
+  <td><b>Tipe Data</b></td><td><b>Contoh</b></td><td><b>Penjelasan</b></td></tr>
 <tr><td>Boolean</td><td>True atau False</td><td>Menyatakan benar True yang bernilai 1, atau salah False yang bernilai 0</td></tr>
 <tr><td>String</td><td>	"Ayo belajar Python"</td><td>Menyatakan karakter/kalimat bisa berupa huruf angka, dll (diapit tanda " atau ')</td></tr>
 <tr><td>Integer</td><td>25 atau 1209</td><td>Menyatakan bilangan bulat</td></tr>
