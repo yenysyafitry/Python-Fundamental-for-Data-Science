@@ -27,7 +27,7 @@ Academy DQLab</table></details>
 
 <p align="justify"><b>Variable, Basic Data Type and Print</b></br>Pada sesi kali ini kita akan belajar bagaimana cara inisialisasi variable dalam beberapa data type dan menampilkannya (print)</br><table><tr>
   <td>Tipe Data</td><td>Contoh</td><td>Penjelasan</td></tr>
-<tr><td>Boolean</td><td>True atau False</td><td>Menyatakan benar True yang bernilai 1, atau salah False yang bernilai 0</td></tr></table>
+<tr><td>Boolean</td><td>True atau False</td><td>Menyatakan benar True yang bernilai 1, atau salah False yang bernilai 0</td></tr>
 <tr><td>String</td><td>	"Ayo belajar Python"</td><td>Menyatakan karakter/kalimat bisa berupa huruf angka, dll (diapit tanda " atau ')</td></tr>
 <tr><td>Integer</td><td>25 atau 1209</td><td>Menyatakan bilangan bulat</td></tr>
 <tr><td>Float</td><td>3.14 atau 0.99</td><td>Menyatakan bilangan yang mempunyai koma</td></tr>
