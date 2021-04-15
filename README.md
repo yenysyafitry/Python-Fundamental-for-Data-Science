@@ -271,9 +271,8 @@ table.head()</br>
 x_label = table['NAMA KELURAHAN']</br>
 plt.bar(x=np.arange(len(x_label)),height=table['LAKI-LAKI WNI'])</br>
 plt.show()			</br>
-  </summary><table><i>Output :</br> </i></table></details></br>
-<details> <summary align="justify"><b></br>
-  </summary><table><i>Output :</br></i><img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science/blob/main/download.png"></table></details>
+  </summary><table><i>Output :</br> </i><img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science/blob/main/download.png"></table></details></br>
+
   
   <details> <summary align="justify"><b>Parameter dalam Grafik (Memberikan Nilai Axis dari data CSV)</b></br><i>import pandas as pd</br>
 import numpy as np</br>
