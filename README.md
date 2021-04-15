@@ -214,7 +214,7 @@ f.close()
 table = pd.read_csv("https://academy.dqlab.id/dataset/penduduk_gender_head.csv")</br>
 table.head()</br>
 print(table)				
-  </summary><table><i>Output :</br></i><tr><td>No</td><td>TAHUN</td><td>NAMA PROVINSI</td><td>NAMA KABUPATEN</td><td>NAMA KECAMATAN</td></tr>
+  </summary><table><tr><td>No</td><td>TAHUN</td><td>NAMA PROVINSI</td><td>NAMA KABUPATEN</td><td>NAMA KECAMATAN</td></tr>
   <tr><td>0</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
  <tr><td>1</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
  <tr><td>2</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
