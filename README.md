@@ -118,18 +118,33 @@ if(angka%2==0):</br>
 print("angka termasuk bilangan genap")</br>
 else:</br>
 print("angka termasuk bilangan ganjil")</i></table></details>
-<details> <summary><b></br>
+
+<details> <summary><b>while</b></br>j = 0 #nilai awal j =0</br>
+while j<6: #ketika j kurang dari 6 lakukan perulangan, jika tidak stop perulangan</br>
+    print("Ini adalah perulangan ke -",j) #lakukan perintah ini ketika perulangan</br>
+    j=j+1 #setiap kali diakhir perulangan update nilai dengan ditambah 1.
+</summary><table><i>Output :</br>Ini adalah perulangan ke - 0</br>
+Ini adalah perulangan ke - 1</br>
+Ini adalah perulangan ke - 2</br>
+Ini adalah perulangan ke - 3</br>
+Ini adalah perulangan ke - 4</br>
+Ini adalah perulangan ke - 5></i></table></details>
+<details> <summary><b>for (1)</b></br>for i in range (1,6): #perulangan for sebagai inisialisasi dari angka 1 hingga angka yang lebih kecil daripada 6.</br>
+    print("Ini adalah perulangan ke -", i) #perintah jika looping akan tetap berjalan
+</summary><table><i>Output : </br>Ini adalah perulangan ke - 1</br>
+Ini adalah perulangan ke - 2</br>
+Ini adalah perulangan ke - 3</br>
+Ini adalah perulangan ke - 4</br>
+Ini adalah perulangan ke - 5</i></table></details>
+
+<details> <summary align="justify"><b></br>
 </summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
-<details> <summary><b></br>
+<details> <summary align="justify"><b></br>
 </summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
-<details> <summary><b></br>
+<details> <summary align="justify"><b></br>
 </summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
-<details> <summary><b></br>
+<details> <summary align="justify"><b></br>
 </summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
-<details> <summary><b></br>
-</summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
-<details> <summary><b></br>
-</summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
-<details> <summary><b></br>
+<details> <summary align="justify"><b></br>
 </summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
 
