@@ -210,18 +210,55 @@ for row in reader:</br>
 f.close()
   </p>
 
-<details> <summary align="justify"><b>Membaca file CSV dengan menggunakan PANDAS</p></br>Bagi yang belum familiar, PANDAS merupakan salah satu library yang sangat sering digunakan untuk aplikasi dan implementasi data science. Baik untuk data manipulation, data pre-processing, atau data wrangling. Pada sesi kali ini, kita akan menggunakan PANDAS untuk membaca file dari csv.</br></br>import pandas as pd</br>
+<details> <summary align="justify"><b>Membaca file CSV dengan menggunakan PANDAS</b></br>Bagi yang belum familiar, PANDAS merupakan salah satu library yang sangat sering digunakan untuk aplikasi dan implementasi data science. Baik untuk data manipulation, data pre-processing, atau data wrangling. Pada sesi kali ini, kita akan menggunakan PANDAS untuk membaca file dari csv.</br></br>import pandas as pd</br>
 table = pd.read_csv("https://academy.dqlab.id/dataset/penduduk_gender_head.csv")</br>
 table.head()</br>
 print(table)				
   </summary><table><i>Output :</br></i><tr><td>No</td><td>TAHUN</td><td>NAMA PROVINSI</td><td>NAMA KABUPATEN</td><td>NAMA KECAMATAN</td></tr>
   <tr><td>0</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
- tr><td>1</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
-  tr><td>2</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
-tr><td>3</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
- tr><td>4</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
-  tr><td>5</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
-  
+ <tr><td>1</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
+ <tr><td>2</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
+<tr><td>3</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
+ <tr><td>4</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
+  <tr><td>5</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
+  <tr><td>6</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>SAWAH BESAR</td></tr>
+   <tr><td>7</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>SAWAH BESAR</td></tr>
+    <tr><td>8</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>SAWAH BESAR</td></tr>
+     <tr><td>9</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>SAWAH BESAR</td></tr>
+      <tr><td>10</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>SAWAH BESAR</td></tr>
+       <tr><td>11</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>KEMAYORAN</td></tr>
+       <tr><td>12</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>KEMAYORAN</td></tr>
+       <tr><td>13</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>KEMAYORAN</td></tr>
+       <tr><td>14</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>KEMAYORAN</td></tr>
+       <tr><td>15</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>KEMAYORAN</td></tr>
+<tr><td>16</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>KEMAYORAN</td></tr>
+<tr><td>17</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>KEMAYORAN</td></tr>
+<tr><td>18</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>KEMAYORAN</td></tr>
+<tr><td>19</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>SENEN</td></tr>
+<tr><td>20</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>SENEN</td></tr>
+<tr><td>21</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>SENEN</td></tr>
+<tr><td>22</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>SENEN</td></tr>
+<tr><td>23</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>SENEN</td></tr>
+<tr><td>24</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>SENEN</td></tr>
+<tr><td>25</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>CEMPAKA PUTIH</td></tr>
+<tr><td>26</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>CEMPAKA PUTIH</td></tr>
+<tr><td>27</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>CEMPAKA PUTIH</td></tr>
+<tr><td>28</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>MENTENG</td></tr>
+<tr><td>29</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>MENTENG</td></tr>
+<tr><td>30</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>MENTENG</td></tr>
+<tr><td>31</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>MENTENG</td></tr>
+<tr><td>32</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>MENTENG</td></tr>
+<tr><td>33</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>TANAH ABANG</td></tr>
+<tr><td>34</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>TANAH ABANG</td></tr>
+<tr><td>35</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>TANAH ABANG</td></tr>
+<tr><td>36</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>TANAH ABANG</td></tr>
+<tr><td>37</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>TANAH ABANG</td></tr>
+<tr><td>38</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>TANAH ABANG</td></tr>
+<tr><td>39</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>TANAH ABANG</td></tr>
+<tr><td>40</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>JOHAR BARU</td></tr>
+<tr><td>41</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>JOHAR BARU</td></tr>
+<tr><td>42</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>JOHAR BARU</td></tr>
+<tr><td>43</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>JOHAR BARU</td></tr>
   </table></details>
   
   <details> <summary align="justify"><b></br>
