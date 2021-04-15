@@ -167,7 +167,7 @@ salam()
 luas_segitiga(4, 6) 	
 </summary><table><i>Luas segitiga: 12.000000</i></table></details>
 
-<details> <summary align="justify"><b>Fungsi dengan Return Value</b></br>Fungsi yang tidak mengembalikan nilai biasanya disebut dengan prosedur. Namun, kadang kita butuh hasil proses dari fungsi untuk digunakan pada proses berikutnya. Maka fungsi harus mengembalikan nilai dari hasil pemrosesannya. Cara mengembalikan nilai adalah menggunakan kata kunci return lalu diikuti dengan nilai atau variabel yang akan dikembalikan.</br>#Buat fungsi untuk menghitung luas segitiga</br><i>
+<details> <summary align="justify"><b>Fungsi dengan Return Value</b></br>Fungsi yang tidak mengembalikan nilai biasanya disebut dengan prosedur. Namun, kadang kita butuh hasil proses dari fungsi untuk digunakan pada proses berikutnya. Maka fungsi harus mengembalikan nilai dari hasil pemrosesannya. Cara mengembalikan nilai adalah menggunakan kata kunci return lalu diikuti dengan nilai atau variabel yang akan dikembalikan.</br></br><i>
 # Buat fungsi untuk menghitung luas segitiga</br>
 #alas dan tinggi merupakan parameter yang masuk</br>
 def luas_segitiga(alas, tinggi):</br>
@@ -176,12 +176,16 @@ def luas_segitiga(alas, tinggi):</br>
 #pemanggilan fungsi</br>
 print("Luas segitiga: %d" % luas_segitiga(4, 6))</i>
 </summary><table><i>Luas segitiga: 12</i></table></details>
-<details> <summary align="justify"><b></br>
-</summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
-<details> <summary align="justify"><b></br>
-</summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
-<details> <summary align="justify"><b></br>
-</summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
+
+<details> <summary align="justify"><b>Import Package dan Menggunakan modul</b></br>import math</br>
+print("Nilai pi adalah:", math.pi)# math.pi merupakan sintak untuk memanggil fungsi	
+</summary><table><i>Nilai pi adalah: 3.141592653589793 </i></table></details>
+<details> <summary align="justify"><b>Import dengan Module Rename atau Alias</b></br>import math as m #menggunakan m sebagai module rename atau alias</br>
+print("Nilai pi adalah:", m.pi) #m.pi merupakan sintak untuk memanggil fungsi​
+</summary><table><i>Output :</br>Nilai pi adalah: 3.141592653589793</i></table></details>
+<details> <summary align="justify"><b>Import Sebagian Fungsi</b></br>from math import pi</br>
+print("Nilai pi adalah", pi)
+</summary><table><i>Output :</br>Nilai pi adalah 3.141592653589793</i></table></details>
 <details> <summary align="justify"><b></br>
 </summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
 
