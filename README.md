@@ -302,5 +302,5 @@ plt.show()
   
   </br>
   </br>
-  <img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science//blob/main/Screenshot_2.jpg">
+  <p><img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science//blob/main/Screenshot_2.jpg"></p>
 
