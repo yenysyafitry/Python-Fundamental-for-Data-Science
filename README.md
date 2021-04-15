@@ -273,7 +273,7 @@ plt.bar(x=np.arange(len(x_label)),height=table['LAKI-LAKI WNI'])</br>
 plt.show()			</br>
   </summary><table><i>Output :</br> </i></table></details></br>
 <details> <summary align="justify"><b></br>
-  </summary><table><i>Output :</br></i><img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science//blob/main/download.png"></table></details>
+  </summary><table><i>Output :</br></i><img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science/blob/main/download.png"></table></details>
   
   <details> <summary align="justify"><b>Parameter dalam Grafik (Memberikan Nilai Axis dari data CSV)</b></br><i>import pandas as pd</br>
 import numpy as np</br>
@@ -284,7 +284,7 @@ x_label = table['NAMA KELURAHAN']</br>
 plt.bar(x=np.arange(len(x_label)),height=table['LAKI-LAKI WNI'])</br>
 plt.xticks(np.arange(len(x_label)), table['NAMA KELURAHAN'], rotation=30)</br>
 plt.show()				</i>
-  </summary><table><i>Output :</br> </i> <img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science//blob/main/download (1).png"></table></details>
+  </summary><table><i>Output :</br> </i> <img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science/blob/main/download (1).png"></table></details>
 
 <details> <summary align="justify"><b>Menambah Title dan Label pada Grafik</b></br>import pandas as pd</br>
 import numpy as np</br>
@@ -298,9 +298,9 @@ plt.xlabel('Keluarahan di Jakarta pusat')</br>
 plt.ylabel('Jumlah Penduduk Laki - Laki')</br>
 plt.title('Persebaran Jumlah Penduduk Laki- Laki di Jakarta Pusat')</br>
 plt.show()	
-  </summary><table><i>Output :</br> </i><img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science//blob/main/download (2).png"></table></details>
+  </summary><table><i>Output :</br> </i><img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science/blob/main/download (2).png"></table></details>
   
   </br>
   </br>
-  <p><img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science//blob/main/Screenshot_2.jpg"></p>
+  <p><img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science/blob/main/Screenshot_2.jpg"></p>
 
