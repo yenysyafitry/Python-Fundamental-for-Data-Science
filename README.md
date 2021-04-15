@@ -199,11 +199,30 @@ print("Nilai e adalah:", e)
 
 <p align="justify"><b>CSV atau comma separated value</b> adalah salah satu tipe file yang digunakan secara luas di dunia programming. Tidak hanya itu CSV pun sering digunakan dalam pengolahan informasi yang dihasilkan spreadsheet untuk diproses lebih lanjut melalui mesin analitik. CSV pun dianggap sebagai file yang agnostik karena dapat digunakan oleh berbagai database untuk proses backup data. CSV dianggap sebagai salah satu tipe data yang sering dipakai untuk mengelola data pada proses lanjutan.</p>
 
-<details> <summary align="justify"><b>Membaca Teks File (CSV)</b></br>Sekarang kita akan mencoba membaca sebuah file CSV yang telah dihasilkan aplikasi atau program lain. Di Python, hasil pembacaan setiap baris pada file CSV akan dikonversi menjadi list Python.</br></br>
-  </summary><table><i>Output :</br> </i></table></details>
+<p align="justify"><b>Membaca Teks File (CSV)</b></br>Sekarang kita akan mencoba membaca sebuah file CSV yang telah dihasilkan aplikasi atau program lain. Di Python, hasil pembacaan setiap baris pada file CSV akan dikonversi menjadi list Python.</br></br>import csv</br>
+#tentukan lokasi file, nama file, dan inisialisasi csv</br>
+f = open('https://storage.googleapis.com/dqlab-dataset/penduduk_gender_head.csv', 'r')</br>
+reader = csv.reader(f)</br>
+#membaca baris per baris</br>
+for row in reader:</br>
+     print (row)</br>
+#menutup file csv</br>
+f.close()
+  </p>
 
-<details> <summary align="justify"><b></br>
-  </summary><table><i>Output :</br> </i></table></details>
+<details> <summary align="justify"><b>Membaca file CSV dengan menggunakan PANDAS</p></br>Bagi yang belum familiar, PANDAS merupakan salah satu library yang sangat sering digunakan untuk aplikasi dan implementasi data science. Baik untuk data manipulation, data pre-processing, atau data wrangling. Pada sesi kali ini, kita akan menggunakan PANDAS untuk membaca file dari csv.</br></br>import pandas as pd</br>
+table = pd.read_csv("https://academy.dqlab.id/dataset/penduduk_gender_head.csv")</br>
+table.head()</br>
+print(table)				
+  </summary><table><i>Output :</br></i><tr><td>No</td><td>TAHUN</td><td>NAMA PROVINSI</td><td>NAMA KABUPATEN</td><td>NAMA KECAMATAN</td></tr>
+  <tr><td>0</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
+ tr><td>1</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
+  tr><td>2</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
+tr><td>3</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
+ tr><td>4</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
+  tr><td>5</td> <td>2013</td><td>PROVINSI DKI JAKARTA</td><td>JAKARTA PUSAT</td><td>GAMBIR</td></tr>
+  
+  </table></details>
   
   <details> <summary align="justify"><b></br>
   </summary><table><i>Output :</br> </i></table></details>
