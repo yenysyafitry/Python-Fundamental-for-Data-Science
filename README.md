@@ -129,14 +129,53 @@ Ini adalah perulangan ke - 2</br>
 Ini adalah perulangan ke - 3</br>
 Ini adalah perulangan ke - 4</br>
 Ini adalah perulangan ke - 5></i></table></details>
-<details> <summary><b>for (1)</b></br>Maksud dari fungsi ini for i in range (1,6): jika kita konversi pada JAVA atau C sama dengan for(i=1;i<6i++). Jika dikonversi menjadi kalimat adalah “perulangan dimulai dari nilai i = 1 hingga nilai i kurang dari 6 dimana setiap kali perulangan nilai i akan selalu ditambah 1”. Jika nilai i sudah mencapai 6 perulangan akan dihentikan. </br><i>for i in range (1,6): #perulangan for sebagai inisialisasi dari angka 1 hingga angka yang lebih kecil daripada 6.</br>
-&nbsp print("Ini adalah perulangan ke -", i) #perintah jika looping akan tetap berjalan</br></i>
+<details> <summary><b>for (1)</b></br>Maksud dari fungsi ini for i in range (1,6): jika kita konversi pada JAVA atau C sama dengan for(i=1;i<6i++). Jika dikonversi menjadi kalimat adalah “perulangan dimulai dari nilai i = 1 hingga nilai i kurang dari 6 dimana setiap kali perulangan nilai i akan selalu ditambah 1”. Jika nilai i sudah mencapai 6 perulangan akan dihentikan. </br><i>&nbspfor i in range (1,6): #perulangan for sebagai inisialisasi dari angka 1 hingga angka yang lebih kecil daripada 6.</br>
+&nbsp &nbsp &nbsp print("Ini adalah perulangan ke -", i) #perintah jika looping akan tetap berjalan</br></i>
 </summary><table><i>Output : </br>Ini adalah perulangan ke - 1</br>
 Ini adalah perulangan ke - 2</br>
 Ini adalah perulangan ke - 3</br>
 Ini adalah perulangan ke - 4</br>
 Ini adalah perulangan ke - 5</i></table></details>
 
+<details> <summary align="justify"><b>for (2) with access element</b></br>for i in range (1,11):</br>
+    if(i%2==0):</br>
+        print("Angka genap",i)</br>
+    else:</br>
+         print("Angka ganjil",i)
+</summary><table><i>Output : </br>Angka ganjil 1</br>
+Angka genap 2</br>
+Angka ganjil 3</br>
+Angka genap 4</br>
+Angka ganjil 5</br>
+Angka genap 6</br>
+Angka ganjil 7</br>
+Angka genap 8</br>
+Angka ganjil 9</br>
+Angka genap 10</i></table></details>
+
+<details> <summary align="justify"><b>Membuat fungsi sendiri</b></br>#Membuat Fungsi</br>
+def salam():</br>
+    print("Hello, Selamat Pagi")</br>
+##Pemanggilan Fungsi</br>
+salam()	
+</summary><table><i>Hello, Selamat Pagi </i></table></details>
+<details> <summary align="justify"><b>Parameter pada fungsi</b></br>def luas_segitiga(alas, tinggi): #alas dan tinggi merupakan parameter yang masuk</br>
+    luas = (alas * tinggi) / 2</br>
+    print("Luas segitiga: %f" % luas);</br>
+#Pemanggilan fungsi</br>
+##4 dan 6 merupakan parameter yang diinputkan kedalam fungsi luas segitiga</br>
+luas_segitiga(4, 6) 	
+</summary><table><i>Luas segitiga: 12.000000</i></table></details>
+
+<details> <summary align="justify"><b>Fungsi dengan Return Value</b></br>Fungsi yang tidak mengembalikan nilai biasanya disebut dengan prosedur. Namun, kadang kita butuh hasil proses dari fungsi untuk digunakan pada proses berikutnya. Maka fungsi harus mengembalikan nilai dari hasil pemrosesannya. Cara mengembalikan nilai adalah menggunakan kata kunci return lalu diikuti dengan nilai atau variabel yang akan dikembalikan.</br>#Buat fungsi untuk menghitung luas segitiga</br><i>
+# Buat fungsi untuk menghitung luas segitiga</br>
+#alas dan tinggi merupakan parameter yang masuk</br>
+def luas_segitiga(alas, tinggi):</br>
+    luas = (alas * tinggi) / 2</br>
+    return luas</br>
+#pemanggilan fungsi</br>
+print("Luas segitiga: %d" % luas_segitiga(4, 6))</i>
+</summary><table><i>Luas segitiga: 12</i></table></details>
 <details> <summary align="justify"><b></br>
 </summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
 <details> <summary align="justify"><b></br>
@@ -145,6 +184,11 @@ Ini adalah perulangan ke - 5</i></table></details>
 </summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
 <details> <summary align="justify"><b></br>
 </summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
+
 <details> <summary align="justify"><b></br>
 </summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
+<details> <summary align="justify"><b></br>
+</summary><table><img src="https://github.com/yenysyafitry/Advanced-Data-Visualization-with-ggplot2-using-R/blob/main/Screenshot_1.jpg"></table></details>
+
+
 
