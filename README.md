@@ -301,5 +301,7 @@ plt.show()
   
   </br>
   </br>
-  <p><img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science/blob/main/Screenshot_2.jpg"></p>
+  <p align="center"><b>E-Sertifikat </b></br><img src="https://github.com/yenysyafitry/Python-Fundamental-for-Data-Science/blob/main/e-sertifikat.jpg"></p>
+
+
 
